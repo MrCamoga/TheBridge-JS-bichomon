@@ -2,7 +2,7 @@ console.log(document.title);
 
 document.getElementById("gen-1").textContent = "Generasión 1 Pokimon";
 
-document.getElementById("gen-1").nextElementSibling.style.backgroundColor = "#ff0000";
+document.querySelector("#gen-1 + div").style.backgroundColor = "#ff0000";
 
 console.log(document.documentURI);
 console.log(document.domain);
