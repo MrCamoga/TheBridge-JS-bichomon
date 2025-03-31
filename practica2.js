@@ -24,5 +24,5 @@ function printOdd2(start, count = 50) {
 
 console.log(count("efregtji", "e"));
 console.log(count2("efregtji", "e"));
-printOdd(41, 50);
-printOdd2(41, 50);
+printOdd(41);
+printOdd2(41);
